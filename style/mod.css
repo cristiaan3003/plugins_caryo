@@ -1,0 +1,202 @@
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f0fd+0,f2f9fe+100 */
+	background: #d6f0fd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d6f0fd 0%, #f2f9fe 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #d6f0fd 0%,#f2f9fe 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #d6f0fd 0%,#f2f9fe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f0fd', endColorstr='#f2f9fe',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+  padding: 0em;
+
+}
+
+.circle-loader,
+.circle-loader:after {
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: 1em;
+  margin-right: .5em;
+
+}
+
+.checkmark:after {
+	opacity: 1;
+	height: 2em;
+	width: 1em;
+	transform-origin: left top;
+	border-right: 2px solid #5cb85c;
+	border-top: 2px solid #5cb85c;
+	content: '';
+	left: 1em;
+	top: 2em;
+	position: absolute;
+}
+
+
+#body_dump{
+	background-color: #ABEBC6 !important;
+}
+#body_elm{
+	background-color: #D5DBDB;
+}
+#body_net{
+	background-color: #7FB3D5;
+}
+#body_enderezar{
+	background-color: #D98880;
+}
+
+
+div.A {
+    border-radius: 5px;
+    border-style: groove;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f4f4f4+100 */
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffffff 0%, #f4f4f4 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#f4f4f4 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #ffffff 0%,#f4f4f4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
+		padding-bottom: 4px;
+}
+
+
+
+/* .grid-pad */
+#contenedor_imagen1{
+	width: 125px;
+}
+#contenedor_imagen2{
+	width: 145px;
+}
+#contenedor_imagen3{
+	width: 127px;
+}
+#contenedor_imagen4{
+	width: 128px;
+}
+
+#content{
+	height: 600px;
+	padding-top: 10px;
+}
+.legenda{
+	align: center;
+}
+
+#tresultado_img{
+	font-size: 0.65em;
+	padding-top: 10px;
+}
+
+#device_info{
+	font-size: 0.65em;
+	padding-top: 5px;
+}
+
+#leyenda_cariograma{
+	font-size: 0.85em;
+	padding-top: 0px;
+	font-weight: bold;
+}
+
+div.A, .grid-pad, .grid {
+padding-top: -50px;
+}
+
+h5 {
+		margin:24px;
+    margin-top: 1px;
+
+}
+
+.denver{
+float:left;
+font-size: 0.85em;
+text-decoration: underline;
+text-shadow: 2px 0.5px #D5DBDB;
+
+}
+
+#banner_enderzar{
+	background-image: url("../img/red.jpg");
+	/* background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit; */
+	background-repeat: repeat-x;
+	padding: 1px;
+	margin-bottom: -34px;
+	color: #F6CECE;
+}
+#seleccionarCromosomasEnderezar{
+	margin: 1em;
+}
+
+
+#banner_dump{
+	background-image: url("../img/green.jpg");
+	/* background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit; */
+	background-repeat: repeat-x;
+	padding: 1px;
+	margin-bottom: -34px;
+	color: #ECF6CE;
+}
+#seleccionarCromosomasDump{
+	margin: 1em;
+}
+
+#banner_entrenar{
+	background-image: url("../img/gris.jpg");
+	/* background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit; */
+	background-repeat: repeat-x;
+	padding: 1px;
+	margin-bottom: -34px;
+	color: #F2F2F2;
+}
+#seleccionarCromosomasEntrenar{
+	margin: 1em;
+}
+
+#banner_elm{
+	background-image: url("../img/blue.jpg");
+	/* background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit; */
+	background-repeat: repeat-x;
+	padding: 1px;
+	margin-bottom: -34px;
+	color: #CEECF5;
+}
+#seleccionarCromosomasElm{
+	margin: 1em;
+}
+
+input[type="button"]:disabled {
+    background: #dddddd;
+}
+
+input[type="button"] {
+		margin-left:0.5em;
+		margin-top:0.5em;
+}
+
+input[type=text] { border-color:#cccccc; border-radius:13px;
+	background-color:#edf7f7; border-style:solid;
+	font-size:16px; border-width:2px; padding:4px;
+	text-align:left; text-shadow:0px 0px 0px rgba(42,42,42,.77);
+	 font-family:sans-serif;  }
+input[type=number] { border-color:#cccccc; border-radius:13px;
+	 	background-color:#edf7f7; border-style:solid;
+	 	font-size:12px; border-width:1px; padding:2px;
+	 	text-align:left; text-shadow:0px 0px 0px rgba(42,42,42,.77);
+	 	 font-family:sans-serif;  }
+input[type=text],input[type=number]:focus { outline:none; }
+
+
+#inTurnFadingTextG2{
+	margin-left: 43%;
+
+}
+
+#imageMatrixConf{
+	opacity: 0.8;
+	background-blend-mode: multiply;
+}
